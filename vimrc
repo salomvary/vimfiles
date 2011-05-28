@@ -7,4 +7,10 @@ if has("win32")
 	behave mswin
 endif
 
+if has('gui_running')
+    set background=light
+else
+    set background=dark
+endif
 
+colorscheme solarized
