@@ -3,7 +3,6 @@ call pathogen#runtime_append_all_bundles()
 if has("win32")
 	source $VIMRUNTIME/vimrc_example.vim
 	source $VIMRUNTIME/mswin.vim
-	behave mswin
 endif
 
 if has('gui_running')
@@ -27,3 +26,5 @@ if has("win32")
 	set guifont=DejaVu_Sans_Mono:h14
 endif
 
+set backup
+set backupdir=$HOME/.vimbackup
