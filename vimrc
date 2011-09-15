@@ -7,11 +7,8 @@ endif
 
 if has('gui_running')
     set background=light
-else
-    set background=dark
+		colorscheme solarized
 endif
-
-colorscheme solarized
 
 set tabstop=2
 set shiftwidth=2
@@ -26,5 +23,14 @@ if has("win32")
 	set guifont=DejaVu_Sans_Mono:h14
 endif
 
+if has("unix")
+  let s:uname = system("uname")
+  if s:uname == "Darwin\n"
+    " Do Mac stuff here
+		set guifont=Menlo:h14
+  endif
+endif
+
 set backup
 set backupdir=$HOME/.vimbackup
+set smartindent
