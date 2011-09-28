@@ -35,3 +35,5 @@ endif
 set backup
 set backupdir=$HOME/.vimbackup
 set smartindent
+set hlsearch
+set ruler
