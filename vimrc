@@ -37,3 +37,5 @@ set backupdir=$HOME/.vimbackup
 set smartindent
 set hlsearch
 set ruler
+
+autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
