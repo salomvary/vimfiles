@@ -39,3 +39,5 @@ set hlsearch
 set ruler
 
 autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
+
+au! BufRead,BufNewFile *.json set filetype=json 
