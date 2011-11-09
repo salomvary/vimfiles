@@ -37,6 +37,9 @@ set backupdir=$HOME/.vimbackup
 set smartindent
 set hlsearch
 set ruler
+" disable flash and beep:
+set visualbell
+set t_vb=
 
 autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 
