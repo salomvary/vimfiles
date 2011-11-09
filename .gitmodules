@@ -22,3 +22,6 @@
 [submodule "bundle/javascript"]
 	path = bundle/javascript
 	url = https://github.com/vim-scripts/JavaScript-syntax
+[submodule "bundle/vim-css3-syntax"]
+	path = bundle/vim-css3-syntax
+	url = https://github.com/hail2u/vim-css3-syntax.git
