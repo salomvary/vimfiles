@@ -44,3 +44,4 @@ set t_vb=
 autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 
 au! BufRead,BufNewFile *.json set filetype=json 
+au BufRead,BufNewFile *.sbt set filetype=scala
