@@ -19,6 +19,7 @@ set guioptions-=m  "remove menu bar
 set guioptions-=T  "remove toolbar
 set guioptions-=r  "remove right-hand scroll bar
 set guioptions-=L "left scrollbar
+set laststatus=2
 
 if has("win32")
 	set guifont=DejaVu_Sans_Mono:h14
@@ -28,7 +29,11 @@ if has("unix")
   let s:uname = system("uname")
   if s:uname == "Darwin\n"
     " Do Mac stuff here
-		set guifont=Menlo:h14
+		" get the Powerline font from here: 
+		" https://gist.github.com/1595572
+		set guifont=Menlo\ for\ Powerline:h14
+		"set guifont=Menlo:h14
+		let g:Powerline_symbols = 'fancy'
   endif
 endif
 
@@ -45,3 +50,4 @@ autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 
 au! BufRead,BufNewFile *.json set filetype=json 
 au BufRead,BufNewFile *.sbt set filetype=scala
+
