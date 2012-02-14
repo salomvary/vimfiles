@@ -7,6 +7,6 @@ if exists("current_compiler")
 endif
 let current_compiler = "maven"
 
-set makeprg=mvn\ -q\ clean\ compile
+set makeprg=mvn\ -q\ compile
 set errorformat=\[ERROR]\ %f:[%l\\,%v]\ %m
 
