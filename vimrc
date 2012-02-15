@@ -46,7 +46,7 @@ set ruler
 " disable flash and beep:
 set visualbell
 set t_vb=
-" automatically format comment lines in insert mode
+" automatically format comment lines in insert mode (:help comments)
 set formatoptions+=roc
 
 
@@ -55,3 +55,4 @@ autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 au! BufRead,BufNewFile *.json set filetype=json 
 au BufRead,BufNewFile *.sbt set filetype=scala
 
+filetype plugin on
