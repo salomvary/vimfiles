@@ -41,10 +41,14 @@ set backup
 set backupdir=$HOME/.vimbackup
 set smartindent
 set hlsearch
+set incsearch
 set ruler
 " disable flash and beep:
 set visualbell
 set t_vb=
+" automatically format comment lines in insert mode
+set formatoptions+=roc
+
 
 autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 
