@@ -56,3 +56,15 @@ au! BufRead,BufNewFile *.json set filetype=json
 au BufRead,BufNewFile *.sbt set filetype=scala
 
 filetype plugin on
+
+" wildignore settings from here:
+" https://bitbucket.org/sjl/dotfiles/src/tip/vim/.vimrc
+set wildignore+=.hg,.git,.svn                    " Version control
+set wildignore+=*.jpg,*.bmp,*.gif,*.png,*.jpeg   " binary images
+set wildignore+=*.sw?                            " Vim swap files
+set wildignore+=*.DS_Store                       " OSX bullshit
+set wildignore+=*.orig                           " Merge resolution files
+set wildignore+=classes
+
+
+
