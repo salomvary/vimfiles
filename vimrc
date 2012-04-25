@@ -65,6 +65,7 @@ set wildignore+=*.sw?                            " Vim swap files
 set wildignore+=*.DS_Store                       " OSX bullshit
 set wildignore+=*.orig                           " Merge resolution files
 set wildignore+=classes
+set wildignore+=target
 
 
-
+let g:Powerline_stl_path_style = "short"
