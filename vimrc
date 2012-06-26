@@ -69,3 +69,4 @@ set wildignore+=target
 
 
 let g:Powerline_stl_path_style = "short"
+let g:CommandTMatchWindowReverse = 1
