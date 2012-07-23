@@ -16,3 +16,11 @@ Create vimrc with the following content:
  https://github.com/tpope/vim-pathogen
 
 3. git submodule init; git submodule update
+
+Post-install
+
+4. Compile Command-T
+	cd ~/.vim/bundle/command-t
+	rake make
+
+5. Install vim-powerline font. See ~/.vim/vimrc for instructions.

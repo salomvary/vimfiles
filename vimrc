@@ -26,6 +26,9 @@ if has("win32")
 endif
 
 if has("unix")
+	let g:Powerline_symbols = 'fancy'
+	" get Linux Powerline front from here:
+	" https://github.com/scotu/ubuntu-mono-powerline/ 
   let s:uname = system("uname")
   if s:uname == "Darwin\n"
     " Do Mac stuff here
@@ -33,7 +36,6 @@ if has("unix")
 		" https://gist.github.com/1595572
 		set guifont=Menlo\ for\ Powerline:h14
 		"set guifont=Menlo:h14
-		let g:Powerline_symbols = 'fancy'
   endif
 endif
 
