@@ -52,6 +52,12 @@ set t_vb=
 " automatically format comment lines in insert mode (:help comments)
 set formatoptions+=roc
 
+" highlight whitespace errors
+highlight ExtraWhitespace ctermbg=red guibg=red
+au ColorScheme * highlight ExtraWhitespace guibg=red
+au BufEnter * match ExtraWhitespace /\s\+$/
+au InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
+au InsertLeave * match ExtraWhiteSpace /\s\+$/
 
 autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 
