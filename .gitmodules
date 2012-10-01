@@ -37,3 +37,6 @@
 [submodule "bundle/vim-plugin-dirsettings"]
 	path = bundle/vim-plugin-dirsettings
 	url = https://github.com/mantiz/vim-plugin-dirsettings.git
+[submodule "bundle/ack.vim"]
+	path = bundle/ack.vim
+	url = https://github.com/mileszs/ack.vim.git

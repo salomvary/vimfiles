@@ -79,3 +79,6 @@ set wildignore+=target
 
 let g:Powerline_stl_path_style = "short"
 let g:CommandTMatchWindowReverse = 1
+
+"enable extended pattern matching in bash
+set shell=/bin/bash\ -O\ extglob
