@@ -16,9 +16,6 @@
 [submodule "bundle/vim-markdown"]
 	path = bundle/vim-markdown
 	url = https://github.com/plasticboy/vim-markdown/
-[submodule "bundle/git-vim"]
-	path = bundle/git-vim
-	url = git://github.com/motemen/git-vim.git
 [submodule "bundle/javascript"]
 	path = bundle/javascript
 	url = https://github.com/vim-scripts/JavaScript-syntax
@@ -40,3 +37,6 @@
 [submodule "bundle/syntastic"]
 	path = bundle/syntastic
 	url = https://github.com/scrooloose/syntastic.git
+[submodule "bundle/vim-fugitive"]
+	path = bundle/vim-fugitive
+	url = git://github.com/tpope/vim-fugitive.git
