@@ -82,3 +82,5 @@ let g:CommandTMatchWindowReverse = 1
 
 "enable extended pattern matching in bash
 set shell=/bin/bash\ -O\ extglob
+
+let g:syntastic_check_on_open=1
