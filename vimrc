@@ -84,3 +84,4 @@ let g:CommandTMatchWindowReverse = 1
 set shell=/bin/bash\ -O\ extglob
 
 let g:syntastic_check_on_open=1
+let g:syntastic_javascript_checker = 'jshint'
