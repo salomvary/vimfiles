@@ -85,3 +85,5 @@ set shell=/bin/bash\ -O\ extglob
 
 let g:syntastic_check_on_open=1
 let g:syntastic_javascript_checker = 'jshint'
+
+dig .3 8320 " unicode … digraph
