@@ -64,7 +64,7 @@ autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 au! BufRead,BufNewFile *.json set filetype=json 
 au BufRead,BufNewFile *.sbt set filetype=scala
 
-filetype plugin on
+filetype plugin indent on
 
 " wildignore settings from here:
 " https://bitbucket.org/sjl/dotfiles/src/tip/vim/.vimrc
