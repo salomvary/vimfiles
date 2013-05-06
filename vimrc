@@ -8,7 +8,7 @@ if has("win32")
 endif
 
 if has('gui_running')
-    set background=light
+    set background=dark
 		colorscheme solarized
 endif
 
