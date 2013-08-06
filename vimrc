@@ -23,7 +23,7 @@ set guioptions-=L "left scrollbar
 set laststatus=2
 
 if has("win32")
-	set guifont=DejaVu_Sans_Mono:h14
+	set guifont=DejaVu_Sans_Mono:h15
 endif
 
 if has("unix")
@@ -35,7 +35,7 @@ if has("unix")
     " Do Mac stuff here
 		" get the Powerline font from here: 
 		" https://gist.github.com/1595572
-		set guifont=Menlo\ for\ Powerline:h14
+		set guifont=Menlo\ for\ Powerline:h15
 		"set guifont=Menlo:h14
   endif
 endif
