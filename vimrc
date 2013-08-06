@@ -87,3 +87,5 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_javascript_checker = 'jshint'
 
 dig .3 8230 " unicode … digraph
+
+call togglebg#map("<F5>")
