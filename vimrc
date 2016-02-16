@@ -1,3 +1,5 @@
+source $VIMRUNTIME/macros/matchit.vim
+
 call dirsettings#Install()
 call pathogen#runtime_append_all_bundles() 
 call pathogen#helptags()
@@ -8,13 +10,14 @@ if has("win32")
 endif
 
 if has('gui_running')
-    set background=dark
+    "set background=dark
 		colorscheme solarized
 endif
 
 set tabstop=2
 set shiftwidth=2
 set encoding=utf8
+"set textwidth=80
 
 set guioptions-=m  "remove menu bar
 set guioptions-=T  "remove toolbar
@@ -84,7 +87,9 @@ let g:CommandTMatchWindowReverse = 1
 set shell=/bin/bash\ -O\ extglob
 
 let g:syntastic_check_on_open = 1
-let g:syntastic_javascript_checker = 'jshint'
+"let g:syntastic_javascript_checkers = ['eslint', 'jshint']
+let g:syntastic_javascript_checkers = ['eslint']
+let g:syntastic_ruby_checkers = ['mri', 'rubocop']
 
 dig .3 8230 " unicode … digraph
 
