@@ -27,7 +27,7 @@
 	url = git://git.wincent.com/command-t.git
 [submodule "bundle/vim-plugin-dirsettings"]
 	path = bundle/vim-plugin-dirsettings
-	url = https://github.com/mantiz/vim-plugin-dirsettings.git
+	url = https://github.com/salomvary/vim-plugin-dirsettings.git
 [submodule "bundle/ack.vim"]
 	path = bundle/ack.vim
 	url = https://github.com/mileszs/ack.vim.git
