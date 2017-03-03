@@ -24,6 +24,7 @@ set guioptions-=T  "remove toolbar
 set guioptions-=r  "remove right-hand scroll bar
 set guioptions-=L "left scrollbar
 set laststatus=2
+set et
 
 if has("win32")
 	set guifont=DejaVu_Sans_Mono:h15
