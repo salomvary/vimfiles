@@ -58,3 +58,9 @@
 [submodule "bundle/vim-jsx"]
 	path = bundle/vim-jsx
 	url = https://github.com/mxw/vim-jsx.git
+[submodule "bundle/vim-scala"]
+	path = bundle/vim-scala
+	url = https://github.com/derekwyatt/vim-scala.git
+[submodule "bundle/typescript-vim"]
+	path = bundle/typescript-vim
+	url = https://github.com/leafgarland/typescript-vim.git
