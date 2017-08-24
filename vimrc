@@ -95,3 +95,9 @@ let g:syntastic_ruby_checkers = ['mri', 'rubocop']
 dig .3 8230 " unicode … digraph
 
 call togglebg#map("<F5>")
+
+"Use GitHub Markdown by default
+augroup markdown
+  au!
+  au BufNewFile,BufRead *.md,*.markdown setlocal filetype=ghmarkdown
+augroup END
