@@ -2,7 +2,6 @@ source $VIMRUNTIME/macros/matchit.vim
 
 call pathogen#runtime_append_all_bundles() 
 call pathogen#helptags()
-call dirsettings#Install()
 
 if has("win32")
 	source $VIMRUNTIME/vimrc_example.vim
